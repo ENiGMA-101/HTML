@@ -67,7 +67,7 @@
         <hr>
         <br>
         <!--Forms-->
-        <form action="process.php" method="POST">
+        <form action="Form Submit.php" method="POST">
             <div>
                 <label>First Name</label>
                 <input type="text" name="firstName" placeholder="Enter your first name">
@@ -85,10 +85,38 @@
                 <input type="email" name="email" placeholder="Enter your mail address">
             </div><br>
             <div>
-                <label>Age</label>
-                <input
+                <label>Message</label>
+                <textarea name="message" placeholder="Enter any message for us"></textarea>
             </div><br>
+            <div>
+                <label>Gender</label>
+                <select name="Gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+            </div><br>
+            <div>
+                <label>Age :</label>
+                <input type="number" name="age" value="30" placeholder="Enter your age">
+            </div><br>
+            <div>
+                <label>Birthdate :</label>
+                <input type="date" name="birthdate">
+            </div><br>
+            <input type="submit" name="submit" value="Submit"><br>
         </form>
+        <!--Button tag-->
+        <button>Click Me</button>
+        <!--Image-->
+        <a href="Image/MyGirl.jpeg" target="_blank">
+            <img src="Image/MyGirl.jpeg" alt="My Girl not leading 👉👈" width="500" height="400">
+        </a><br>
+        <blockquote cite="http://google.com">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, minus.
+        </blockquote>
+        <p>This <abbr title="World Wide Web">WWW</abbr> is awesome.</p>
+        <p>It is created with <cite><u>HTML tutorial</u></cite> video </p>
         <div style="margin-top:1000px"></div>
     </body>
 </html>
